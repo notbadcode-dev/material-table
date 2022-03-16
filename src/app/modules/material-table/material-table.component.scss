@@ -62,8 +62,8 @@ tr.example-element-row:not(.example-expanded-row):active {
   opacity: 0.5;
 }
 
-th.mat-column-position,
-td.mat-column-position {
+th:not(.mat-column-select),
+td:not(.mat-column-select) {
   padding-left: 8px;
 }
 
